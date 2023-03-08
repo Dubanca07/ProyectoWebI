@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Datalist, optionGroup, Regex</title>
+</head>
+<body>
+    
+    <form action="">
+
+    <h1>Ejemplo Datalist, optionGroup, Regex</h1>
+
+    <input type="text" list="lista">
+
+    <datalist id = "lista">
+
+        <option value="Oracie"></option>
+        <option value="MySQL"></option>
+        <option value="Postgresql"></option>
+        <option value="MS Server"></option>
+
+    </datalist>
+
+    <h2>Combobox con optiongroup</h2>
+
+    <select>
+        <optgroup label="Sistemas Operativos">
+            <option value="Windows X">Windows X</option>
+            <option value="Ubunto">Ubunto</option>
+            <option value="Mac OS">Mac OS</option>
+        </optgroup>
+        <optgroup label="Navegadores">
+            <option value="Chrome">Chrome</option>
+            <option value="Brave">Brave</option>
+            <option value="Firefox">Firefox</option>
+        </optgroup>
+    </select>
+
+    Nombre
+    <input type="text" pattern="Sr\s[a-z A-Z 3-5]*">
+    <input type="submit" value="Enviar Datos">
+
+    </form>
+</body>
+</html>
