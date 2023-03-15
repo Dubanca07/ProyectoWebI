@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>“Ejemplo Formulario #1</title>
+</head>
+<body>
+<form action="">
+
+    <h1 style="color:#FF0000">Land Of Boxes Orden Form</h1>
+
+    Name
+    <input type="text" size="30" pattern="[a-z A-Z]*" required>
+    <br> <br>
+    Email
+    <input type="email" size="30" maxlength="30" required>
+    <br><br>
+
+    <div style="display: flex; align-items: center;">
+
+        <p style="margin-left: ">Address &nbsp;</p>
+        <textarea cols="28" rows="5" required></textarea>
+
+    </div>
+    <br>
+
+    Postcode
+    <input type="text" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="8" minlength="6" size="27" required>
+
+    <br> <br>
+
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><strong>Product</strong></td>
+                <td><strong>Part Number</strong></td>
+                <td><strong>Quantity</strong></td>
+                <td><strong>Unit Price</strong></td>
+                <td><strong>Subtotal</strong></td>
+            </tr>
+            <tr>
+                <td>EconoBox</td>
+                <td>LB100</td>
+                <td><input type="text" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="3" minlength="1" size="3" required></td>
+                <td>R5</td>
+                <td><input type="text" pattern="R\d+" required></td>
+            </tr>
+            <tr>
+                <td>Standand Box</td>
+                <td>LB200</td>
+                <td><input type="text" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="3" minlength="1" size="3" required></td>
+                <td>R10</td>
+                <td><input type="text" pattern="R\d+" required></td>
+            </tr>
+            <tr>
+                <td>Premium BoxTD</td>
+                <td>LB300</td>
+                <td><input type="text" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="3" minlength="1" size="3" required></td>
+                <td>R15</td>
+                <td><input type="text" pattern="R\d+" required></td>
+            </tr>
+            <tr>
+                <td>Deluxe BoxTD</td>
+                <td>LB400</td>
+                <td><input type="text" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="3" minlength="1" size="3" required></td>
+                <td>R20</td>
+                <td><input type="text" pattern="R\d+" required></td>
+            </tr>
+            <tr>
+                <td>Super Deluxe BoxTD</td>
+                <td>LB500</td>
+                <td><input type="text" pattern="[0-9]+" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="3" minlength="1" size="3" required></td>
+                <td>R30</td>
+                <td><input type="text" pattern="R\d+" required></td>
+            </tr>
+            <tr>
+                <td colspan="5"> <p style="text-align: right;"</p> Total <input type="text" pattern="R\d+" required></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+        <strong>Credit Card Details </strong>
+        <br><br>
+        Card Type
+        <br>
+        <input type="radio" name="Card Type" checked> Matercard
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        Card Number <input type="number" required>
+        <br>
+        <input type="radio" name="Card Type" > Visa
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+        
+        <label for="fecha" >Expery Date :</label>
+        <input type="date" id="fecha" name="fecha" min="1991-01-01" max="2025-12-31" required>
+        <br>
+        <input type="radio" name="Card Type" > American Express
+        <br>
+        <input type="radio" name="Card Type" > Diners Club
+        <br><br>
+
+        <div style="display: flex; align-items: center;">
+
+            <p style="margin-left: "><strong>Delivery Address: &nbsp;</strong> </p>
+            <textarea cols="28" rows="5" required></textarea>
+    
+        </div>
+
+
+    <br><br>
+
+    <input type="submit" value="Send orden">
+    <input type="reset" value="Clear form">
+
+</form>
+</body>
+</html>
