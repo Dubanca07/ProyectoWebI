@@ -1,0 +1,60 @@
+h1 {
+
+    color: cornflowerblue;
+    text-align: center;
+
+}
+
+.flex_contenedor{
+
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+
+}
+
+.div_1{
+
+    width: 50%;
+
+}
+
+.div_2{
+
+    width: 40%;
+    background-color: beige;
+
+}
+
+.flex_contenedor2{
+
+    display: flex;
+    height: 100px;
+
+}
+
+.div1{
+
+    
+}
+
+.div2{
+
+  
+}
+
+.flex_contenedor3{
+
+    display: flex;
+
+}
+
+.div3{
+
+        width: 25%;
+        flex-direction: column;
+        text-align: center;
+      
+}
+
+
