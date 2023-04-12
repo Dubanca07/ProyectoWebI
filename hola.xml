@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile>
+  <diagram id="GPT-3.5" name="Database Schema" pageWidth="850" pageHeight="1100">
+    <add as="vertex">
+      <mxCell id="Vehiculo" value="Vehiculo" style="ellipse" vertex="1" parent="1">
+        <mxGeometry x="240" y="70" width="100" height="40" as="geometry"/>
+      </mxCell>
+      <mxCell id="Camion" value="Camion" style="ellipse" vertex="1" parent="1">
+        <mxGeometry x="90" y="220" width="100" height="40" as="geometry"/>
+      </mxCell>
+      <mxCell id="Coche" value="Coche" style="ellipse" vertex="1" parent="1">
+        <mxGeometry x="390" y="220" width="100" height="40" as="geometry"/>
+      </mxCell>
+      <mxCell id="Furgoneta" value="Furgoneta" style="ellipse" vertex="1" parent="1">
+        <mxGeometry x="240" y="370" width="100" height="40" as="geometry"/>
+      </mxCell>
+      <mxCell id="Todoterreno" value="Todoterreno" style="ellipse" vertex="1" parent="1">
+        <mxGeometry x="240" y="520" width="100" height="40" as="geometry"/>
+      </mxCell>
+    </add>
+    <add as="edge">
+      <mxCell id="Camion_Vehiculo" value="" edge="1" parent="1" source="Camion" target="Vehiculo">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="0" y="0"/>
+          <Array as="points"/>
+          <mxPoint x="0" y="0"/>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="Coche_Vehiculo" value="" edge="1" parent="1" source="Coche" target="Vehiculo">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="0" y="0"/>
+          <Array as="points"/>
+          <mxPoint x="0" y="0"/>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="Furgoneta_Vehiculo" value="" edge="1" parent="1" source="Furgoneta" target="Vehiculo">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="0" y="0"/>
+          <Array as="points"/>
+          <mxPoint x="0" y="0"/>
+        </mxGeometry>
+      </mxCell>
+      <mxCell id="Todoterreno_Vehiculo" value="" edge="1" parent="1" source="Todoterreno" target="Vehiculo">
+        <mxGeometry relative="1" as="geometry">
+          <mxPoint x="0" y="0"/>
+          <Array as="points"/>
+          <mxPoint x="0" y="0"/>
+        </mxGeometry>
+      </mxCell>
+    </add>
+  </diagram>
+</
