@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo JS</title>
+    <script src="../JS/utilidades.js"></script>
+</head>
+<body>
+    
+    <script>
+
+        var h1 = crearElementoConTexto("h1", "Tutorial Web");
+        var h2FrontEnd = crearElementoConTexto("h2", "Front End");
+        var h2Noticias = crearElementoConTexto("h2", "Noticias");
+        var p = crearElementoConTexto("p", "Hola Mundo");
+
+        var ul = crearElemento("ul");
+        var liuno = crearElementoConTexto("li", "Frameworks");
+        var lidos = crearElementoConTexto("li", "Librerias");
+        var litres = crearElementoConTexto("li", "Ultimas Noticias");
+
+        adicionarHijo(ul,liuno);
+        adicionarHijo(ul,lidos);
+        adicionarHijo(ul,litres);
+
+        var imagen = crearImagen("../recursos/Imagenes/quiz.webp");
+
+        adicionarBody(h1);
+        adicionarBody(h2FrontEnd);
+        adicionarBody(h2Noticias);
+        adicionarBody(p);
+        adicionarBody(ul);
+        adicionarBody(imagen);
+
+       /* var h1 = document.createElement("h1");
+        var textoh1 = document.createTextNode("Tutorial Web");
+        h1.appendChild(textoh1);
+        document.body.appendChild(h1);
+
+        var h2 = document.createElement("h2");
+        var textoh2 = document.createTextNode("Front End");
+        h2.appendChild(textoh2);
+        document.body.appendChild(h2);
+
+        var h2 = document.createElement("h2");
+        var textoh2 = document.createTextNode("Noticias");
+        h2.appendChild(textoh2);
+        document.body.appendChild(h2); */
+
+
+
+
+    </script>
+
+</body>
+</html>
